@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarListApp</name>
+    </assembly>
+    <members>
+        <member name="T:CarListApp.ViewModels.BaseVM">
+            <inheritdoc/>
+        </member>
+        <member name="P:CarListApp.ViewModels.BaseVM.Title">
+            <inheritdoc cref="F:CarListApp.ViewModels.BaseVM.title"/>
+        </member>
+        <member name="P:CarListApp.ViewModels.BaseVM.IsLoading">
+            <inheritdoc cref="F:CarListApp.ViewModels.BaseVM.isLoading"/>
+        </member>
+        <member name="T:CarListApp.ViewModels.CarDetailsVM">
+            <inheritdoc/>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarDetailsVM.Car">
+            <inheritdoc cref="F:CarListApp.ViewModels.CarDetailsVM.car"/>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarDetailsVM.Id">
+            <inheritdoc cref="F:CarListApp.ViewModels.CarDetailsVM.id"/>
+        </member>
+        <member name="T:CarListApp.ViewModels.CarListVM">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.Make">
+            <inheritdoc cref="F:CarListApp.ViewModels.CarListVM.make"/>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.Model">
+            <inheritdoc cref="F:CarListApp.ViewModels.CarListVM.model"/>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.Vin">
+            <inheritdoc cref="F:CarListApp.ViewModels.CarListVM.vin"/>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.CreateUpdateButton">
+            <inheritdoc cref="F:CarListApp.ViewModels.CarListVM.createUpdateButton"/>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.CarId">
+            <inheritdoc cref="F:CarListApp.ViewModels.CarListVM.carId"/>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.IsRefreshing">
+            <inheritdoc cref="F:CarListApp.ViewModels.CarListVM.isRefreshing"/>
+        </member>
+        <member name="F:CarListApp.ViewModels.CarListVM.getCarListCommand">
+            <summary>The backing field for <see cref="P:CarListApp.ViewModels.CarListVM.GetCarListCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.GetCarListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.ViewModels.CarListVM.GetCarList"/>.</summary>
+        </member>
+        <member name="F:CarListApp.ViewModels.CarListVM.getCarDetailsCommand">
+            <summary>The backing field for <see cref="P:CarListApp.ViewModels.CarListVM.GetCarDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.GetCarDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CarListApp.ViewModels.CarListVM.GetCarDetails(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:CarListApp.ViewModels.CarListVM.saveCarCommand">
+            <summary>The backing field for <see cref="P:CarListApp.ViewModels.CarListVM.SaveCarCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.SaveCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.ViewModels.CarListVM.SaveCar"/>.</summary>
+        </member>
+        <member name="F:CarListApp.ViewModels.CarListVM.deleteCarCommand">
+            <summary>The backing field for <see cref="P:CarListApp.ViewModels.CarListVM.DeleteCarCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.DeleteCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CarListApp.ViewModels.CarListVM.DeleteCar(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:CarListApp.ViewModels.CarListVM.editCarCommand">
+            <summary>The backing field for <see cref="P:CarListApp.ViewModels.CarListVM.EditCarCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.EditCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CarListApp.ViewModels.CarListVM.EditCar(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:CarListApp.ViewModels.CarListVM.clearFormCommand">
+            <summary>The backing field for <see cref="P:CarListApp.ViewModels.CarListVM.ClearFormCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.ViewModels.CarListVM.ClearFormCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.ViewModels.CarListVM.ClearForm"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Car">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Car" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Make">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Make" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Model">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Model" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Vin">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Vin" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CreateUpdateButton">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CreateUpdateButton" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CarId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CarId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Car">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Car" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Make">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Make" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Model">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Model" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Vin">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Vin" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CreateUpdateButton">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CreateUpdateButton" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CarId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CarId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+    </members>
+</doc>
