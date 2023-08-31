@@ -4,14 +4,18 @@ namespace CarListApp.Views;
 
 public partial class CarDetailsPage : ContentPage
 {
+    private readonly CarDetailsVM CarDetailsVM;
+
     public CarDetailsPage(CarDetailsVM carDetailsVM)
     {
         InitializeComponent();
         BindingContext = carDetailsVM;
+        this.CarDetailsVM = carDetailsVM;
     }
 
-    protected override void OnNavigatedTo(NavigatedToEventArgs args)
+    protected override async void OnAppearing()
     {
-        base.OnNavigatedTo(args);
+        base.OnAppearing();
+        await CarDetailsVM.GetCarData();
     }
 }

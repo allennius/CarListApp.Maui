@@ -14,7 +14,7 @@ namespace CarListApp
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.1.99.45")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.1.99.67")]
 	public partial class Resource
 	{
 		
@@ -22337,6 +22337,9 @@ namespace CarListApp
 			
 			// aapt resource value: 0x7F120001
 			public const int microsoft_maui_essentials_fileprovider_file_paths = 2131886081;
+			
+			// aapt resource value: 0x7F120002
+			public const int network_security_config = 2131886082;
 			
 			static Xml()
 			{

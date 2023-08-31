@@ -91,8 +91,12 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.86, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
@@ -109,6 +113,10 @@
             "SQLitePCLRaw.provider.sqlite3": {
               "target": "Package",
               "version": "[2.1.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.2, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -198,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -233,8 +241,12 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.86, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
@@ -251,6 +263,10 @@
             "SQLitePCLRaw.provider.sqlite3": {
               "target": "Package",
               "version": "[2.1.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.2, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -285,7 +301,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -320,8 +336,12 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.86, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
@@ -338,6 +358,10 @@
             "SQLitePCLRaw.provider.sqlite3": {
               "target": "Package",
               "version": "[2.1.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.2, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -373,7 +397,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -408,24 +432,22 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.86, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
               "target": "Package",
-              "version": "[7.0.86, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Windows.SDK.BuildTools": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.22621.755, )",
+              "version": "[7.0.92, )",
               "autoReferenced": true
             },
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
@@ -442,6 +464,10 @@
             "SQLitePCLRaw.provider.sqlite3": {
               "target": "Package",
               "version": "[2.1.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.2, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -462,19 +488,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.7, 7.0.7]"
+              "version": "[7.0.10, 7.0.10]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.7, 7.0.7]"
+              "version": "[7.0.10, 7.0.10]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.28, 10.0.19041.28]"
+              "version": "[10.0.19041.29, 10.0.19041.29]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.7, 7.0.7]"
+              "version": "[7.0.10, 7.0.10]"
             }
           ],
           "frameworkReferences": {
@@ -494,7 +520,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

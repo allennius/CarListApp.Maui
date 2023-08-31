@@ -7,8 +7,17 @@
              x:DataType="vm:CarDetailsVM">
     <VerticalStackLayout>
         <Label 
+            Text="{Binding Car.Make}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="{Binding Car.Model}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
             Text="{Binding Car.Vin}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
     </VerticalStackLayout>
 </ContentPage>

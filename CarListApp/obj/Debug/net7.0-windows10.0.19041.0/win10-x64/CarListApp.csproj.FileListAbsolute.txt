@@ -17,6 +17,10 @@ C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows1
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.Interop.dll
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Tokens.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.InteractiveExperiences.Projection.dll
@@ -33,12 +37,14 @@ C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows1
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
@@ -225,7 +231,7 @@ C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows1
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.723.27404.dll
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1023.36312.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
