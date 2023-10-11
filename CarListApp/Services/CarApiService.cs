@@ -13,12 +13,22 @@ namespace CarListApp.Services
     public class CarApiService
     {
         HttpClient _httpClient;
-        public static string BaseAdress = DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:8099" : "http://localhost:8099";
         public string StatusMessage;
 
         public CarApiService()
         {
-            _httpClient = new HttpClient() { BaseAddress = new Uri(BaseAdress) };
+            var baseAdress = GetBaseAdress();
+            _httpClient = new HttpClient() { BaseAddress = new Uri(baseAdress) };
+        }
+
+        private string GetBaseAdress()
+        {
+            #if DEBUG
+                return DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2:8099" : "http://localhost:8099";
+            #elif RELEASE
+                //azure adress
+                return "https://carlistappapi20230907201045.azurewebsites.net";
+            #endif
         }
 
         public async Task <List<Car>> GetCars()
