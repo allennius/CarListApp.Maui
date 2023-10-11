@@ -207,15 +207,15 @@ namespace CarListApp.Api.Migrations
                         {
                             Id = "6490751e-1342-476a-bb01-a515eadafa78",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bbb1d927-f6a7-4345-8caf-17b1517ba370",
+                            ConcurrencyStamp = "888f3aac-e9c5-40b0-9ac1-5d168b0ba0b4",
                             Email = "admin@localhost.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAECgtbPuR9L2Ia+4eHPAMG4QY/mWL0O4Ut4yJTDlzN3RLVpWlAVg/nkvoG/kxAxcBjw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHuJx8L7/WULYcENc0nVcGG1oO0eWw74SmKbscU4fyDUFz7KHZSgFs98pVe1n6GqWw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ae0c833f-dcc2-41fc-abc1-67e9ad3d0fcc",
+                            SecurityStamp = "fdbadf42-2f51-4ca0-8532-958000a743b5",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         },
@@ -223,15 +223,15 @@ namespace CarListApp.Api.Migrations
                         {
                             Id = "d9496331-4421-4d51-9c19-3f3e67c93913",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5b5b9c37-ec6c-47c5-acb5-4151b2371b74",
+                            ConcurrencyStamp = "3983743a-81cd-4aea-997d-83f003829dd9",
                             Email = "user@localhost.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@LOCALHOST.COM",
                             NormalizedUserName = "USER@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPtRs0WK9HT2vuIEEvTqMFiETbFjU8JMS71kNow+DAR3Q6OQ6L1jl4YV6/mtsGCYYQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGvcIV+naTtD8rk/14NtRG3g2AVPFlSsiQz+OgtLDhD9h7N0P05gx9vXL2vELPnw/A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "342df51d-6774-46c6-a0f1-89bf87f79af7",
+                            SecurityStamp = "3c1ffdd9-e4de-49cf-bbad-702f40556801",
                             TwoFactorEnabled = false,
                             UserName = "user@localhost.com"
                         });

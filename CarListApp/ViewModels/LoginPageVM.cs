@@ -1,4 +1,5 @@
-﻿using CarListApp.Models;
+﻿using CarListApp.Helpers;
+using CarListApp.Models;
 using CarListApp.Services;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -53,10 +54,11 @@ namespace CarListApp.ViewModels
 
                     App.userInfo = new UserInfo
                     {
-                        UserName = Username,
+                        UserName = jsonToken.Claims.FirstOrDefault(q => q.Type.Equals(ClaimTypes.Email))?.Value,
                         Role = role
                     };
 
+                    MenyBuilder.BuildMeny();
                     await Shell.Current.GoToAsync($"{nameof(MainPage)}");
                 }
                 else

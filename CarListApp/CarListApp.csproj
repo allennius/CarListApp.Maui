@@ -71,9 +71,6 @@
 	  <None Remove="Services\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Views\" />
-	</ItemGroup>
-	<ItemGroup>
 	  <BundleResource Include="Resources\Styles\Styles.xaml" Condition=" '$(EnableDefaultXamlItems)' == 'true' ">
 	    <SubType>Designer</SubType>
 	  </BundleResource>
@@ -82,6 +79,9 @@
 	  </BundleResource>
 	</ItemGroup>
 	<ItemGroup>
+	  <MauiXaml Update="Controls\FlyOutHeader.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="LoadingPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

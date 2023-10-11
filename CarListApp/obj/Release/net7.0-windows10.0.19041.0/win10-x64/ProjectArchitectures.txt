@@ -1,0 +1,1 @@
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\CarListApp.csproj;x64

@@ -1,7 +1,10 @@
-﻿using System;
+﻿using CarListApp.Helpers;
+using CarListApp.Models;
+using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,9 +30,23 @@ namespace CarListApp.ViewModels
                     JwtSecurityToken;
 
                 if (jsonToken.ValidTo < DateTime.UtcNow)
-                    await GoToMainPage();
-                else
+                {
                     await GoToLoginPage();
+                }
+                else
+                {
+
+                    var role = jsonToken.Claims.FirstOrDefault(q => q.Type.Equals(ClaimTypes.Role))?.Value;
+
+                    App.userInfo = new UserInfo
+                    {
+                        UserName = jsonToken.Claims.FirstOrDefault(q => q.Type.Equals(ClaimTypes.Email))?.Value,
+                        Role = role
+                    };
+
+                    MenyBuilder.BuildMeny();
+                    await GoToMainPage();
+                }
             }
 
             

@@ -689,6 +689,7 @@ C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-ios\ioss
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
+C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\obj\Debug\net7.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\obj\Debug\net7.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\allen\source\repos\CarListApp.Maui\CarListApp\obj\Debug\net7.0-ios\iossimulator-x64\mauisplash.inputs

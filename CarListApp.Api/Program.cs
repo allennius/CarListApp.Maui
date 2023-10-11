@@ -25,7 +25,8 @@ builder.Services.AddCors(o =>
 //var dbPath = Path.Join(Directory.GetCurrentDirectory(), "carlist.db");
 //var conn = new SqliteConnection($"Data Source={dbPath}");
 
-var conn = new SqliteConnection($"Data Source=C:\\carlistdb\\carlist.db");
+//var conn = new SqliteConnection($"Data Source=C:\\carlistdb\\carlist.db");
+var conn = new SqliteConnection($"Data Source=carlist.db");
 builder.Services.AddDbContext<CarListDbContext>(o => o.UseSqlite(conn));
 
 builder.Services.AddIdentityCore<IdentityUser>()
@@ -59,6 +60,12 @@ builder.Services.AddAuthorization(options =>
 
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+using (var context = scope.ServiceProvider.GetService<CarListDbContext>())
+{
+    context.Database.Migrate();
+}
 
 app.UseSwagger();
 app.UseSwaggerUI();
@@ -139,7 +146,7 @@ app.MapPost("/login", async (LoginDto loginDto, UserManager<IdentityUser> _userM
     {
         new Claim(JwtRegisteredClaimNames.Sub, user.Id),
         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-        new Claim(JwtRegisteredClaimNames.Email, user.Email),
+        new Claim(ClaimTypes.Email, user.Email),
         new Claim("email_confirmed", user.EmailConfirmed.ToString())
     }.Union(claims)
     .Union(roles.Select(q => new Claim(ClaimTypes.Role, q)));

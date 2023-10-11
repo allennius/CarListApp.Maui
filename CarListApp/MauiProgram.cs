@@ -33,11 +33,13 @@ public static class MauiProgram
         builder.Services.AddSingleton<LoadingPageVM>();
         builder.Services.AddSingleton<LoginPageVM>();
         builder.Services.AddTransient<CarDetailsVM>();
+        builder.Services.AddSingleton<LogoutVM>();
 
         builder.Services.AddSingleton<MainPage>();
         builder.Services.AddSingleton<LoadingPage>();
         builder.Services.AddSingleton<LoginPage>();
         builder.Services.AddTransient<CarDetailsPage>();
+        builder.Services.AddSingleton<LogoutPage>();
 
         return builder.Build();
     }

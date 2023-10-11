@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using CarListApp.Helpers;
 using CarListApp.Models;
 using CarListApp.Services;
 using CarListApp.Views;
